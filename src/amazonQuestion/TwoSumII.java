@@ -12,8 +12,8 @@ public class TwoSumII {
 
         while (first < second) {
             if (numbers[first] + numbers[second] == target) {
-                result[0] = first+1;
-                result[1] = second+1;
+                result[0] = first + 1;
+                result[1] = second + 1;
                 return result;
             } else if (numbers[first] + numbers[second] > target) {
                 second--;
